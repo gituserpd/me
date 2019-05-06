@@ -1,0 +1,159 @@
+:root{
+	font-size:10px;
+}
+.local{
+	background-color: #8CB5A1;
+	margin: 0;
+	margin-bottom: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+	.header-local{
+		background: #53675B url('me.back.jpg') no-repeat 0 100%;
+		background-size: cover;
+	}
+	.heading{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-shadow: 3px 1px 5px black;
+	}
+	.heading h1{
+		margin: 20px;
+		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 0.5rem;
+	}
+	.heading h3{
+		margin: 20px;
+		font-family: 'Courier', monospace;
+		font-weight: normal;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+	}
+	.heading h2{
+		margin: 20px;
+		font-family: 'Montserrat', sans-serif;
+		bottom:0;
+	}
+
+.container-local{
+	font-size:2rem;
+	background-color: white;
+	box-shadow: 0 0 4px 2px #53675B;
+	min-width:80vw;
+	min-height:100vh;
+}
+
+.header-local{
+	padding:1rem;
+	display:flex;
+	flex-direction:column;
+	color:white;
+	height:50vh;
+	background-color:black;
+}
+.header-local:hover{
+	cursor:default;
+}
+.header_top{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+a .button:hover{
+	background: white;
+	color:black;
+}
+a .button:active{
+	border:none;
+}
+
+.border-right{
+	border-right: 2px dotted lightgrey;
+}
+.row-image img{
+	height:250px;
+	width:250px;
+	margin-right: auto 0;
+}
+.footer{
+	padding:1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color:white;
+	min-height:10vh;
+	background: #53675B url('me.back.jpg') no-repeat 100% 100%;
+	background-size: cover;
+}
+
+.iconset{
+	align-self: center;
+	margin: 10px;
+}
+.iconset img{
+	height: 30px;
+	width: 30px;
+	margin: 7px;
+	border-radius: 50%;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	box-shadow: 0 0 3px black;
+}
+.iconset img:hover{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(0%);
+	box-shadow: 0 0 5px white;
+}
+
+.padding-20{
+	padding: 20px;
+}
+
+/*----BUTTON CONTENTS--------*/
+a .contact:before{
+
+	content:"CONTACT ME";
+}
+a .parent:before{
+
+	content:"PARENT PAGE";
+}
+a .blog:before{
+
+	content:"MY BLOG";
+}
+
+@media screen and (max-width:750px){
+	body{
+		padding-left: 0;
+		margin:0;
+	}
+	.container-local{
+		width:100vw;
+	}
+	.row-local{
+		justify-content: center;
+	}
+	.border-right{
+		border-right:none;
+	}
+	.row-image img{
+		order: 2;
+		height:50vw;
+		width:70vw;
+		align-self: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

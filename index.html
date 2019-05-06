@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!--SETTING THE VIEWPORT TO AVOID PITCH ZOOM-->
+	<meta name="viewport" content="with=divivece-width, initial-scale=1.0, user-scal=no">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand|Raleway|Source+Sans+Pro|Abel|Montserrat|Varela+Round|Rubik" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="images/me.title.png">
+	<!--Bootstrap CDN SCC-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		a{
+			text-decoration: none;
+		}
+		h4{
+			font-family: 'Rubik', sans-serif;
+			text-shadow: 0px 0px 3px lightgreen;
+			font-size: 2rem;
+			line-height: 3.5rem;
+		}
+	</style>
+
+</head>
+<body class="local">
+
+	<div class="container container-local" style="padding:0;">
+		<div class="header-local">
+			<div class="header_top">
+				<a href=""><button class="btn btn-outline-light btn-lg parent"></button></a>
+				<a href="http://blog.smileonclick.in" target="_blank"><button class="btn btn-outline-light btn-lg blog"></button></a>
+			</div>
+			<div class="heading">
+				<h1>PRAVIN DHODARE</h1>
+				<h3>WEB DEVELOPER</h3>
+				<h2>This is All About Me...</h2>
+			</div>
+		</div>
+		<div class="row-local padding-20">
+			<div class="row padding-20">
+				<div class=" col-lg-8 col-md-6 col-12  border-right">
+					<h4>PERSONAL PROFILE</h4>
+					<ul style="list-style-type: none">
+						<li><h4>Hi, this is me...</h4></li>
+							<p>I was born on 2<sup>nd</sup> March, 1991. And I'm belongs to Village Kasargatta which is in Chandrapur District. I have Completed my Engineering graduation from pune university in Information Technology.</p>
+						<li><h4>Languages Known</h4></li>
+							<p>English, Hindi and Marathi </p>
+						<li><h4>Hobbies</h4></li>
+							<p>Painting, Sketching, Tree Planting and Photography</p>
+						<li><h4>Interested</h4></li>
+							<p>in Nature and everything</p>
+					</ul>
+				</div>
+				<div class="row-image col-lg-4 col-md-6 col-12">
+					<figure class="figure"></figure>
+						<img src="me.jpg" class="figure-img img-fluid rounded"/>
+						<figcaption class="figure-caption">Pravin N. Dhodare (Web/UI Developer)</figcaption>
+					</figure>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-12">
+				<h4>OVERVIEW</h4> 
+					<p>Looking for entry level position and would like to be a part of an organization where I could use and enhance my knowledge and talent for the development of both organization and myself.</p>
+				<h4>TECHNICAL SKILS</h4>
+					<p><ul>
+						<li>Languages: CSS, HTML, JavaScript, SQL, JSON</li>
+						<li>Frameworks/Libraries: jQuery, Bootstrap</li>
+						<li>Tools: Photoshop, Git/GitHub, cPanel</li>
+						<li>Other Languages: C, CPP, Python</li>
+					</ul></p>
+				<h4>EXPERTISE</h4>
+					<p><ul>
+							<li>WordPress</li>
+							<li>Responsive web development</li>
+							<li>Version Control</li>
+							<li>Image Editing</li>
+							<li>Web Hosting</li>
+						</ul></p>
+				<h4>AREA OF INTEREST</h4>
+					<p>Design and Development</p>
+			</div>
+		</div><!--Close Row-local-->
+
+		<div class="footer">
+			<button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#exampleModal" style="width: 100px; align-self: center;">CONTACT ME</button>
+			<div class="iconset">
+				<a href="https://www.facebook.com/pravindhodare" target="_blank"><img src="images/facebook.png"/></a>
+				<a href="" target="_blank"><img src="images/googleplus.png"/></a>
+				<a href="" target="_blank"><img src="images/linkedin.png"/></a>
+				<a href="" target="_blank"><img src="images/quora.png"/></a>
+				<a href="" target="_blank"><img src="images/twitter.png"/></a>
+				<a href="" target="_blank"><img src="images/youtube.png"/></a>
+				<a href="" target="_blank"><img src="images/icon1.png"/></a>
+			</div>
+		</div><!--Footer Close-->
+
+	</div><!--Conatainer Close-->
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">FILL BELOW TO CONTACT ME</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+	        	<div class="form-group">
+				    <label for="fullName">Full Name</label>
+				    <input type="text" class="form-control" id="fullName" placeholder="Your Full Name Here" required>
+				</div>
+			  	<div class="form-group">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+				<div class="form-group">
+				    <label for="mobile">Mobile No.</label>
+				    <input type="text" class="form-control" id="mobile" placeholder="9012345678" required>
+				</div>
+				<div class="modal-footer">
+	      			<button type="submit" class="btn btn-outline-success">SEND</button>
+	      		</div>
+			</form>
+	      </div>
+	    </div>
+	  </div>
+	</div><!--Modal close-->
+
+<!--Bootstrap CDN Javascript-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
